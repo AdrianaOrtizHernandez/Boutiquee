@@ -1,0 +1,85 @@
+*{
+	font-family: 'Libre Caslon Display', serif;
+}
+
+body{ background-color: black;
+	padding: 5vw;
+}
+div {
+	background-image: url(../img/logo.jpeg); 
+	width: 40vw;
+	height: 120vh;
+	margin-top: 50px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1{
+ 	color: pink;
+ 	text-align:  center;
+ 	font-size: 5vw;
+ 	margin-top: 0vw;
+}
+h2{ 
+	color: pink;
+ 	text-align:  center;
+ 	font-size: 4vw;
+ 	margin-top: 3vw;
+}
+
+h3{ 
+	color: pink;
+	text-align:left;
+	font-size: 3vw;
+	margin-top: 8vw;
+}
+h4{ 
+	color: white;
+	text-align:left;
+	font-size: 3vw;
+	margin-top: 8vw;
+}
+
+p{
+	color: white;
+	font-size: 2vw;
+	text-align: justify;
+}
+input{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0px;
+	display: block;
+	border: 1px solid skyblue;
+	box-sizing: border-box;
+	border-radius: 8px;
+	
+}
+input[type=submit]{
+	width: 100%;
+	background-color: pink;
+	color: black;
+	border-radius: 4px;
+	padding: 14px 20px;
+	margin: 8px 0px;
+	border: none;
+	
+}
+div{
+	width: 60%;
+	background-image: url('../img/logo.jpeg');
+	background-color: lightgray;
+	margin: auto;
+	padding: 20px;
+	border-radius: 8px;
+
+}
+input[type=submit]:hover{
+	background-color: pink;
+}
+
+label{
+	color: white;
+	
+}
